@@ -1,0 +1,521 @@
+{
+  "arcadeClassicGames": [
+    {
+      "id": 1,
+      "name": "Pac-Man",
+      "chineseName": "吃豆人",
+      "releaseYear": 1980,
+      "developer": "Namco",
+      "publisher": "Namco",
+      "genre": "Action/Maze",
+      "platforms": ["Arcade", "Atari 2600", "NES", "Game Boy", "Multiple"],
+      "description": "Pac-Man is one of the most iconic arcade games in history. Players control a yellow circular character through a maze, consuming dots while avoiding four colorful ghosts (Blinky, Pinky, Inky, and Clyde). The game revolutionized the arcade industry and became a cultural phenomenon.",
+      "detailedDescription": "Pac-Man was created by Toru Iwatani and released by Namco in 1980. The game features 256 levels, with the final level being a maximum level due to integer overflow. Players navigate through mazes filled with dots, power pellets that allow Pac-Man to interact with ghosts, and bonus fruits that appear periodically. The ghosts have distinct AI behaviors: Blinky (red) chases directly, Pinky (pink) ambushes, Inky (cyan) uses complex patterns, and Clyde (orange) alternates between chasing and fleeing. The game's simple yet addictive gameplay, combined with its charming character design, made it a worldwide sensation.",
+      "gameplayMechanics": [
+        "Maze navigation with four-way movement",
+        "Dot collection for points",
+        "Power pellets that reverse ghost behavior",
+        "Ghost AI with distinct personalities",
+        "Bonus fruit appearances",
+        "Progressive difficulty increase"
+      ],
+      "iconicFeatures": [
+        "Maze exploration",
+        "Ghost avoidance and interaction",
+        "Power pellet mechanics",
+        "Simple, accessible controls",
+        "Distinctive sound effects",
+        "Colorful, memorable characters"
+      ],
+      "technicalDetails": {
+        "resolution": "224x288 pixels",
+        "cpu": "Z80 @ 3.072 MHz",
+        "sound": "Namco WSG",
+        "display": "Raster, 256 colors"
+      },
+      "culturalImpact": "Pac-Man became a cultural icon, spawning merchandise, a cartoon series, and numerous sequels. It's credited with expanding the video game audience to include women and families.",
+      "legacy": "Considered one of the greatest video games of all time, Pac-Man defined the maze-chase genre and remains influential in game design today.",
+      "awards": [
+        "Guinness World Records - Most Recognized Video Game Character",
+        "Game of the Year 1980 (multiple publications)"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Space Invaders",
+      "chineseName": "太空侵略者",
+      "releaseYear": 1978,
+      "developer": "Taito",
+      "publisher": "Taito",
+      "genre": "Fixed Shooter",
+      "platforms": ["Arcade", "Atari 2600", "NES", "Game Boy", "Multiple"],
+      "description": "Space Invaders is a fixed shooter game where players control a laser cannon that moves horizontally across the bottom of the screen, targeting waves of descending aliens. As opponents are eliminated, their movement speed increases, creating escalating tension.",
+      "detailedDescription": "Created by Tomohiro Nishikado, Space Invaders was one of the first action games and established many conventions of the shooter genre. The game features five rows of aliens that move horizontally and gradually descend. Players must eliminate all aliens to advance to the next wave. The game introduced the concept of progressive difficulty - as more aliens are eliminated, the remaining ones move faster and the background music tempo increases. The game also features destructible shields that provide cover, a UFO that occasionally appears at the top for bonus points, and a mysterious bonus ship. Space Invaders was so popular in Japan that it caused a shortage of 100-yen coins.",
+      "gameplayMechanics": [
+        "Horizontal movement only",
+        "Single-shot targeting mechanism",
+        "Alien wave patterns",
+        "Progressive speed increase",
+        "Destructible barrier shields",
+        "Bonus UFO targets"
+      ],
+      "iconicFeatures": [
+        "Fixed action position",
+        "Opponent acceleration mechanics",
+        "Pixel art aesthetic",
+        "High score system",
+        "Simple two-button control",
+        "Hypnotic gameplay loop"
+      ],
+      "technicalDetails": {
+        "resolution": "224x256 pixels",
+        "cpu": "Intel 8080 @ 2 MHz",
+        "sound": "Discrete sound circuits",
+        "display": "Black and white with color overlay"
+      },
+      "culturalImpact": "Space Invaders is credited with establishing the action game genre and popularizing video games in arcades. It was one of the first games to save high scores and introduced the concept of 'lives' in video games.",
+      "legacy": "A foundational game in video game history, Space Invaders influenced countless action games and demonstrated the commercial viability of arcade games.",
+      "awards": [
+        "First arcade game to save high scores",
+        "Inducted into World Video Game Hall of Fame"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Donkey Kong",
+      "chineseName": "大金刚",
+      "releaseYear": 1981,
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "genre": "Platform",
+      "platforms": ["Arcade", "NES", "Game Boy", "Multiple"],
+      "description": "Donkey Kong is a platform game where players control Jumpman (later renamed Mario) as he climbs a construction site to rescue his girlfriend Pauline from the giant ape Donkey Kong. The game introduced Mario, one of gaming's most iconic characters.",
+      "detailedDescription": "Designed by Shigeru Miyamoto, Donkey Kong was Nintendo's first major arcade success outside Japan. The game features four distinct levels: the first level has Mario climbing ladders and jumping over barrels, the second involves removing rivets from platforms, the third features conveyor belts and elevators, and the fourth is a bonus level. Donkey Kong throws barrels, fireballs, and other obstacles at Mario. The game introduced many platforming conventions including jumping mechanics, multi-level stage design, and character-based storytelling. The game was originally intended to be a Popeye game, but when licensing fell through, Miyamoto created original characters instead.",
+      "gameplayMechanics": [
+        "Multi-level platform climbing",
+        "Ladder navigation",
+        "Barrel and obstacle avoidance",
+        "Hammer power-up collection",
+        "Rivet removal mechanics",
+        "Time-based bonus scoring"
+      ],
+      "iconicFeatures": [
+        "Platform jumping mechanics",
+        "Multi-screen level design",
+        "Introduction of Mario character",
+        "Physical obstacle challenges",
+        "Character-driven narrative",
+        "Innovative level variety"
+      ],
+      "technicalDetails": {
+        "resolution": "224x256 pixels",
+        "cpu": "Z80 @ 3.072 MHz",
+        "sound": "AY-3-8910",
+        "display": "Raster, 256 colors"
+      },
+      "culturalImpact": "Donkey Kong established Mario as Nintendo's mascot and created the foundation for the platform game genre. The game's success saved Nintendo's American operations and led to the creation of the Mario franchise.",
+      "legacy": "Created the Mario character and established platform gaming conventions that are still used today. The game spawned numerous sequels and spin-offs.",
+      "awards": [
+        "Inducted into World Video Game Hall of Fame",
+        "Ranked among greatest games of all time"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Street Fighter II: The World Warrior",
+      "chineseName": "街头霸王II",
+      "releaseYear": 1991,
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "genre": "Fighting",
+      "platforms": ["Arcade", "SNES", "Genesis", "Multiple"],
+      "description": "Street Fighter II revolutionized the fighting game genre with its deep combat system, diverse character roster, and competitive gameplay. Players select from eight unique fighters, each with distinct special moves and action styles, to compete in a worldwide tournament.",
+      "detailedDescription": "Street Fighter II: The World Warrior was designed by Akira Nishitani and Akira Yasuda. The game features eight playable characters: Ryu, Ken, Chun-Li, Guile, E. Honda, Blanka, Zangief, and Dhalsim. Each character has unique special moves executed through command inputs (quarter-circle motions, charge moves, etc.). The game introduced many fighting game conventions including combo systems, super moves, character-specific endings, and competitive multiplayer. The game's six-button control scheme (light/medium/heavy punch and kick) allowed for strategic depth. Street Fighter II spawned numerous updates and sequels, establishing Capcom as a leader in the fighting game genre.",
+      "gameplayMechanics": [
+        "Six-button control scheme",
+        "Special move command inputs",
+        "Combo system",
+        "Blocking and counter-action",
+        "Character-specific movesets",
+        "Super meter mechanics"
+      ],
+      "iconicFeatures": [
+        "Multiple character selection",
+        "Special move system",
+        "Combo mechanics",
+        "Versus mode",
+        "Character-specific endings",
+        "Competitive gameplay depth"
+      ],
+      "technicalDetails": {
+        "resolution": "384x224 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM2151 + MSM6295",
+        "display": "CPS-1 hardware, 4096 colors"
+      },
+      "culturalImpact": "Street Fighter II created the modern fighting game tournament scene and became a global phenomenon. It influenced countless fighting games and established esports culture in arcades.",
+      "legacy": "Defined modern fighting game standards and remains influential. The game's mechanics and character designs continue to influence fighting games today.",
+      "awards": [
+        "Game of the Year 1991 (multiple publications)",
+        "Inducted into World Video Game Hall of Fame",
+        "Best Arcade Game of All Time (various polls)"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/4.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Galaga",
+      "chineseName": "小蜜蜂",
+      "releaseYear": 1981,
+      "developer": "Namco",
+      "publisher": "Namco",
+      "genre": "Fixed Shooter",
+      "platforms": ["Arcade", "NES", "Game Boy", "Multiple"],
+      "description": "Galaga is a fixed shooter and sequel to Galaxian. Players control a fighter ship that can move horizontally, targeting waves of insect-like aliens. The game introduced the dual-fighter mechanic, where players can capture an opponent ship to gain double firepower.",
+      "detailedDescription": "Galaga improved upon its predecessor Galaxian with enhanced graphics, smoother gameplay, and innovative mechanics. The game features 30 challenging stages with increasingly difficult opponent formations. The signature feature is the dual-fighter system: players can allow a special opponent (the Boss Galaga) to capture their ship, then defeat the Boss to recover it, resulting in two ships that fire simultaneously. The game includes challenging stages, bonus rounds, and various opponent action patterns. Galaga's precise controls and strategic depth made it a favorite among arcade enthusiasts.",
+      "gameplayMechanics": [
+        "Horizontal movement with targeting",
+        "Dual-fighter capture system",
+        "Formation-based opponent actions",
+        "Challenge stages",
+        "Bonus round scoring",
+        "Progressive difficulty waves"
+      ],
+      "iconicFeatures": [
+        "Dual ship system",
+        "Formation action patterns",
+        "Challenge mode stages",
+        "Precise targeting mechanics",
+        "Strategic depth",
+        "Smooth scrolling graphics"
+      ],
+      "technicalDetails": {
+        "resolution": "224x288 pixels",
+        "cpu": "Z80 @ 3.072 MHz",
+        "sound": "Namco WSG",
+        "display": "Raster, 256 colors"
+      },
+      "culturalImpact": "Galaga became one of the most popular arcade games of the 1980s and is frequently referenced in popular culture. It's considered a masterpiece of the fixed shooter genre.",
+      "legacy": "A classic action game that refined the genre, Galaga's dual-fighter mechanic remains unique and influential in game design.",
+      "awards": [
+        "One of the highest-grossing arcade games of 1981",
+        "Frequently ranked among best arcade games"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/5.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Tetris",
+      "chineseName": "俄罗斯方块",
+      "releaseYear": 1984,
+      "developer": "Alexey Pajitnov",
+      "publisher": "Various",
+      "genre": "Puzzle",
+      "platforms": ["Arcade", "Game Boy", "NES", "PC", "Multiple"],
+      "description": "Tetris is a tile-matching puzzle game where players arrange falling geometric shapes called Tetrominoes to form complete horizontal lines. When a line is completed, it disappears, and the player earns points. The game increases in speed as levels progress.",
+      "detailedDescription": "Created by Russian game designer Alexey Pajitnov, Tetris is one of the best-selling video games of all time. The game features seven different Tetromino shapes (I, O, T, S, Z, J, L) that fall from the top of the playing field. Players can rotate pieces 90 degrees and move them horizontally. The goal is to prevent the stack from reaching the top. Tetris introduced the concept of 'the zone' - a mental state of flow where players become completely absorbed in the game. The game's simple rules and infinite replayability made it accessible to players of all ages and skill levels. Tetris has been ported to virtually every gaming platform and has sold over 500 million copies worldwide.",
+      "gameplayMechanics": [
+        "Piece rotation (90 degrees)",
+        "Horizontal movement",
+        "Line clearing mechanics",
+        "Progressive speed increase",
+        "Next piece preview",
+        "Hold piece feature (later versions)"
+      ],
+      "iconicFeatures": [
+        "Simple, elegant rules",
+        "Infinite replayability",
+        "Psychological flow state",
+        "Cross-platform availability",
+        "Universal appeal",
+        "Minimalist design"
+      ],
+      "technicalDetails": {
+        "originalPlatform": "Electronika 60 computer",
+        "firstArcadeVersion": "1988 by Sega",
+        "display": "Various depending on platform"
+      },
+      "culturalImpact": "Tetris became a global phenomenon and is credited with popularizing puzzle games. It's been used in psychological research on cognitive performance and has been featured in numerous cultural references.",
+      "legacy": "One of the best-selling games of all time, Tetris defined the puzzle game genre and demonstrated that simple mechanics can create deeply engaging experiences.",
+      "awards": [
+        "Guinness World Records - Most Ported Video Game",
+        "Game of the Year 1989 (multiple publications)",
+        "Inducted into World Video Game Hall of Fame"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/6.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Double Dragon",
+      "chineseName": "双截龙",
+      "releaseYear": 1987,
+      "developer": "Technos Japan",
+      "publisher": "Taito",
+      "genre": "Beat 'em Up",
+      "platforms": ["Arcade", "NES", "Genesis", "Multiple"],
+      "description": "Double Dragon is a side-scrolling beat 'em up game where players control martial artist brothers Billy and Jimmy Lee as they progress through waves of challengers to rescue Billy's girlfriend Marian. The game popularized the beat 'em up genre and introduced cooperative gameplay.",
+      "detailedDescription": "Double Dragon was designed by Yoshihisa Kishimoto and became the template for countless beat 'em up games. Players progress through four stages: City Slums, Industrial Area, Woods, and the Challenger Hideout. The game features a variety of challengers including street thugs, martial artists, and equipment-wielding foes. Players can use punches, kicks, jump kicks, and grapple moves. Equipment like baseball bats, whips, and tools can be picked up and used. The game's two-player cooperative mode was revolutionary, allowing friends to play together. However, in two-player mode, players must compete at the end to determine who rescues Marian. The game's action system includes combos, throws, and special moves executed through button combinations.",
+      "gameplayMechanics": [
+        "Side-scrolling movement",
+        "Punch and kick actions",
+        "Jump kicks and special moves",
+        "Equipment pickup and usage",
+        "Grapple and throw mechanics",
+        "Two-player cooperative mode"
+      ],
+      "iconicFeatures": [
+        "Two-player cooperation",
+        "Multiple action methods",
+        "Equipment system",
+        "Story progression",
+        "Martial arts action",
+        "Stage-based structure"
+      ],
+      "technicalDetails": {
+        "resolution": "384x224 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM2151 + MSM6295",
+        "display": "CPS-1 hardware, 4096 colors"
+      },
+      "culturalImpact": "Double Dragon defined the beat 'em up genre and influenced games like Final Fight, Streets of Rage, and countless others. The game's cooperative gameplay became a standard feature in the genre.",
+      "legacy": "Established the beat 'em up game template that influenced numerous subsequent titles. The game spawned multiple sequels and remains a beloved classic.",
+      "awards": [
+        "Best Arcade Game 1987 (multiple publications)",
+        "Influential game in beat 'em up genre"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/7.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Metal Slug",
+      "chineseName": "合金弹头",
+      "releaseYear": 1996,
+      "developer": "SNK",
+      "publisher": "SNK",
+      "genre": "Run and Gun",
+      "platforms": ["Arcade", "Neo Geo", "PlayStation", "Multiple"],
+      "description": "Metal Slug is a fast-paced run and gun game featuring detailed pixel art, fluid animation, and intense action. Players control soldiers engaging with a rebel organization, using various equipment and vehicles to complete missions.",
+      "detailedDescription": "Metal Slug was developed by Nazca Corporation (later acquired by SNK) and is renowned for its exceptional pixel art animation. The game features four playable characters: Marco Rossi, Tarma Roving, Eri Kasamoto, and Fio Germi. Players run, jump, and engage through six stages, each ending with a massive boss encounter. The game includes numerous vehicles (the titular Metal Slug tank, aircraft, submarines) that players can pilot. Equipment pickups include heavy machine blasters, projectile launchers, flame devices, and laser equipment. The game's hand-drawn animation features hundreds of frames per character, creating incredibly smooth movement. Metal Slug's humor, detailed graphics, and tight gameplay made it a standout in the arcade scene.",
+      "gameplayMechanics": [
+        "Run and gun gameplay",
+        "Vehicle piloting",
+        "Equipment collection and switching",
+        "Grenade throwing",
+        "Prisoner rescue for bonus points",
+        "Boss encounters"
+      ],
+      "iconicFeatures": [
+        "Exquisite pixel art",
+        "Multiple vehicle types",
+        "Rich equipment system",
+        "Humor and charm",
+        "Smooth animation",
+        "Cooperative multiplayer"
+      ],
+      "technicalDetails": {
+        "resolution": "320x224 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM2610",
+        "display": "Neo Geo MVS, 4096 colors, sprite-based"
+      },
+      "culturalImpact": "Metal Slug became a benchmark for pixel art quality in video games. Its animation techniques influenced many indie developers and the game maintains a dedicated fanbase.",
+      "legacy": "A masterpiece of pixel art and run-and-gun gameplay, Metal Slug's animation quality and game design continue to inspire developers today.",
+      "awards": [
+        "Best Arcade Game 1996 (multiple publications)",
+        "Recognized for exceptional pixel art animation"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/8.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "name": "The King of Fighters '97",
+      "chineseName": "拳皇97",
+      "releaseYear": 1997,
+      "developer": "SNK",
+      "publisher": "SNK",
+      "genre": "Fighting",
+      "platforms": ["Arcade", "Neo Geo", "PlayStation", "Multiple"],
+      "description": "The King of Fighters '97 is a team-based fighting game featuring 3-on-3 encounters. The game combines characters from SNK's various franchises including Fatal Fury, Art of Fighting, and Ikari Warriors. It's particularly popular in China and remains one of the most played fighting games in arcades there.",
+      "detailedDescription": "KOF '97 is part of SNK's flagship fighting game series. The game features two action systems: 'Advanced' mode with rolling dodges and max mode activation, and 'Extra' mode with charge-based special moves. Players select a team of three characters and engage in sequence. The game includes 29 playable characters, including series regulars like Kyo Kusanagi, Iori Yagami, and Terry Bogard, as well as boss characters Orochi and his followers. The game's story concludes the Orochi saga that began in KOF '95. KOF '97 is renowned for its balanced gameplay, diverse character roster, and technical depth. In China, the game achieved legendary status and continues to have active competitive scenes decades after release.",
+      "gameplayMechanics": [
+        "3-character team selection",
+        "Two action system modes",
+        "Combo system with cancels",
+        "Super special moves",
+        "Team-based strategy",
+        "Character-specific techniques"
+      ],
+      "iconicFeatures": [
+        "3-on-3 team encounters",
+        "Rich character roster",
+        "Combo system",
+        "Super special moves",
+        "Dual action systems",
+        "Story-driven narrative"
+      ],
+      "technicalDetails": {
+        "resolution": "320x224 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM2610",
+        "display": "Neo Geo MVS, 4096 colors"
+      },
+      "culturalImpact": "KOF '97 became a cultural phenomenon in China, where it remains one of the most popular arcade games. The game has maintained active competitive scenes and has been featured in numerous tournaments.",
+      "legacy": "In China, KOF '97 has achieved legendary status and continues to influence fighting game culture. The game is considered one of the most balanced and enjoyable entries in the series.",
+      "awards": [
+        "Most popular fighting game in Chinese arcades",
+        "Longest-lasting competitive scene in arcade history (China)"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/9.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Metal Slug 2",
+      "chineseName": "合金弹头2",
+      "releaseYear": 1998,
+      "developer": "SNK",
+      "publisher": "SNK",
+      "genre": "Run and Gun",
+      "platforms": ["Arcade", "Neo Geo", "PlayStation", "Multiple"],
+      "description": "Metal Slug 2 expands upon the original with new characters, vehicles, challengers, and the introduction of the transformation mechanic. The game maintains the series' high-quality pixel art and adds more variety to gameplay.",
+      "detailedDescription": "Metal Slug 2 introduces Eri Kasamoto and Fio Germi as playable characters alongside returning heroes Marco and Tarma. The game features seven stages with new environments including deserts, underwater areas, and alien spacecraft. The most notable addition is the transformation feature: when hit by certain challenger actions, players transform with different abilities - slower movement but the ability to use special attacks that affect challengers. The game includes new vehicles like the Camel Slug, Ostrich Slug, and Elephant Slug. New equipment includes the Enemy Chaser, Iron Lizard, and Super Grenade. The game also features branching paths in some stages, adding replay value. Metal Slug 2 continued the series' tradition of exceptional animation and tight gameplay.",
+      "gameplayMechanics": [
+        "Dual character selection",
+        "New vehicle systems",
+        "Transformation mechanic",
+        "More levels",
+        "Branching stage paths",
+        "Enhanced equipment variety"
+      ],
+      "iconicFeatures": [
+        "Two character choices",
+        "New vehicle system",
+        "Transformation feature",
+        "More stages",
+        "Branching paths",
+        "Expanded equipment arsenal"
+      ],
+      "technicalDetails": {
+        "resolution": "320x224 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM2610",
+        "display": "Neo Geo MVS, 4096 colors"
+      },
+      "culturalImpact": "Metal Slug 2 continued the series' reputation for quality and further established Metal Slug as a premier run-and-gun franchise.",
+      "legacy": "Maintained the series' high standards and introduced mechanics that would become series staples. The transformation feature remains one of the most memorable features.",
+      "awards": [
+        "Best Arcade Game 1998 (multiple publications)",
+        "Maintained series quality standards"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/10.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Raiden",
+      "chineseName": "雷电",
+      "releaseYear": 1990,
+      "developer": "Seibu Kaihatsu",
+      "publisher": "Fabtek",
+      "genre": "Vertical Scrolling Shooter",
+      "platforms": ["Arcade", "SNES", "Genesis", "Multiple"],
+      "description": "Raiden is a vertical scrolling shooter where players control a fighter jet that moves upward through levels, engaging opponents and collecting power-ups. The game features intense action patterns, large bosses, and a two-player cooperative mode.",
+      "detailedDescription": "Raiden was developed by Seibu Kaihatsu and became a benchmark for vertical shooters. Players control the Raiden fighter, which can collect power-ups to upgrade equipment. The game features three equipment types: Vulcan (spread shot), Missile (homing), and Laser (piercing beam). Power-ups can be collected to increase equipment strength, and players can hold multiple equipment types. The game includes eight stages with varied environments including cities, military bases, and alien territories. Each stage ends with a massive boss encounter. Raiden features a distinctive visual style with detailed sprites and smooth scrolling. The game's difficulty is challenging but fair, with precise hitboxes and clear action patterns. The two-player mode allows friends to play together, with both players sharing the screen.",
+      "gameplayMechanics": [
+        "Vertical scrolling movement",
+        "Equipment upgrade system",
+        "Multiple equipment types",
+        "Large boss encounters",
+        "Action pattern navigation",
+        "Two-player cooperative mode"
+      ],
+      "iconicFeatures": [
+        "Equipment upgrade system",
+        "Massive boss encounters",
+        "Action pattern elements",
+        "Two-player cooperation",
+        "Precise controls",
+        "Challenging difficulty"
+      ],
+      "technicalDetails": {
+        "resolution": "240x320 pixels",
+        "cpu": "Motorola 68000 @ 12 MHz",
+        "sound": "YM3812",
+        "display": "Raster, 256 colors"
+      },
+      "culturalImpact": "Raiden influenced the vertical shooter genre and inspired numerous sequels and spiritual successors. The game's equipment system and boss design became genre standards.",
+      "legacy": "A classic vertical shooter that influenced the STG (shooting game) genre. Raiden's design principles continue to influence modern action games.",
+      "awards": [
+        "Best Arcade Action Game 1990 (multiple publications)",
+        "Influential in vertical shooter genre"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/11.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Captain Commando",
+      "chineseName": "名将",
+      "releaseYear": 1991,
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "genre": "Beat 'em Up",
+      "platforms": ["Arcade", "SNES", "PlayStation", "Multiple"],
+      "description": "Captain Commando is a science fiction-themed beat 'em up game featuring four unique characters with special abilities. Players progress through futuristic cityscapes, engaging with robots, aliens, and mutants to save the world from evil forces.",
+      "detailedDescription": "Captain Commando was Capcom's attempt to create a new superhero franchise. The game features four playable characters: Captain Commando (the leader with electric actions), Ninja (fast melee fighter), Baby Head (genius in a mech suit), and Ginzu (alien warrior with blade actions). Each character has unique special moves and action styles. The game takes place in the year 2026 in Metro City, where players engage against the Scumocide crime organization. The game features six stages with varied environments including city streets, sewers, space stations, and alien planets. Players can use melee actions, special moves, and pick up equipment. The game supports up to four players simultaneously, a rare feature for arcade games. Captain Commando features Capcom's signature CPS-1 graphics with detailed sprites and smooth animation.",
+      "gameplayMechanics": [
+        "Four-character selection",
+        "Special ability system",
+        "Science fiction setting",
+        "Smooth action",
+        "Equipment usage",
+        "Four-player simultaneous play"
+      ],
+      "iconicFeatures": [
+        "Four character choices",
+        "Special ability system",
+        "Science fiction theme",
+        "Smooth animation",
+        "Unique character designs",
+        "Multiplayer support"
+      ],
+      "technicalDetails": {
+        "resolution": "384x224 pixels",
+        "cpu": "Motorola 68000 @ 10 MHz",
+        "sound": "YM2151 + MSM6295",
+        "display": "CPS-1 hardware, 4096 colors"
+      },
+      "culturalImpact": "Captain Commando showcased Capcom's expertise in beat 'em up games and demonstrated the potential for science fiction themes in the genre.",
+      "legacy": "An excellent Capcom beat 'em up that showcased the company's technical and design capabilities. The game's character designs and gameplay remain memorable.",
+      "awards": [
+        "Best Arcade Beat 'em Up 1991 (multiple publications)",
+        "Recognized for innovative character design"
+      ],
+      "images": {
+        "icon": "assets/mapDecorationCycle/melbagame/12.jpg"
+      }
+    }
+  ]
+}

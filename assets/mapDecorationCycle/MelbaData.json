@@ -1,0 +1,708 @@
+{
+  "users": [
+    {
+      "user": {
+        "id": "Melba1",
+        "username": "ArcadeMaster",
+        "displayName": "Arcade Craftsman",
+        "bio": "Passionate arcade enthusiast | Every arcade machine is my artwork | Sharing my arcade building journey",
+        "avatar": "assets/mapDecorationCycle/Melba1/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba1/proflieBG.webp",
+        "tags": [
+          "Arcade Enthusiast",
+          "Handmade",
+          "Retro Gaming",
+          "DIY",
+          "Arcade Modding"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-001",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba1/product.mp4",
+            "description": "🎮 My latest handcrafted retro arcade machine is complete! Every detail carefully designed, from cabinet to circuit board. Took 3 months of passion and dedication. An arcade machine is not just a gaming device, but an artwork that carries our childhood memories.",
+            "hashtags": [
+              "ArcadeEnthusiast",
+              "Handmade",
+              "RetroGaming",
+              "DIYArcade",
+              "GamingCulture"
+            ]
+          },
+          "stats": {
+            "likes": 342
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba2",
+        "username": "RetroArcadeBuilder",
+        "displayName": "Alex - Retro Arcade Builder",
+        "bio": "Building custom arcade cabinets since 2018 | Specializing in vintage game restoration | Love bringing old games back to life",
+        "avatar": "assets/mapDecorationCycle/Melba2/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba2/proflieBG.webp",
+        "tags": [
+          "Arcade Builder",
+          "Vintage Restoration",
+          "Classic Games",
+          "Custom Cabinets",
+          "Retro Gaming"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-002",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba2/product.mp4",
+            "description": "🎮 Just finished restoring this beautiful 1980s arcade cabinet! Refurbished CRT monitor, replaced joysticks, restored coin mechanism, and added custom LED lighting. 2 months of careful work to bring this classic machine back to life!",
+            "hashtags": [
+              "ArcadeBuilder",
+              "VintageRestoration",
+              "ClassicGames",
+              "CustomCabinets",
+              "RetroGaming"
+            ]
+          },
+          "stats": {
+            "likes": 428
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba3",
+        "username": "ArcadeTechWizard",
+        "displayName": "Sam - Arcade Tech Wizard",
+        "bio": "Electronics engineer turned arcade enthusiast | Creating modern arcade experiences with cutting-edge tech | Raspberry Pi expert",
+        "avatar": "assets/mapDecorationCycle/Melba3/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba3/proflieBG.webp",
+        "tags": [
+          "Arcade Tech",
+          "Raspberry Pi",
+          "Electronics",
+          "Modern Arcade",
+          "Tech DIY"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-003",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba3/product.mp4",
+            "description": "🎮 Latest tech-powered arcade build! Raspberry Pi 4 with RetroPie, thousands of classic games, 1080p display, WiFi connectivity. Built in 4 weeks, perfect for home gaming with authentic arcade feel!",
+            "hashtags": [
+              "ArcadeTech",
+              "RaspberryPi",
+              "Electronics",
+              "ModernArcade",
+              "TechDIY"
+            ]
+          },
+          "stats": {
+            "likes": 567
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba4",
+        "username": "WoodworkArcade",
+        "displayName": "Jordan - Woodwork Arcade",
+        "bio": "Master woodworker crafting premium arcade cabinets | Hand-selected hardwoods | Attention to detail in every joint",
+        "avatar": "assets/mapDecorationCycle/Melba4/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba4/proflieBG.webp",
+        "tags": [
+          "Woodworking",
+          "Premium Cabinets",
+          "Handcrafted",
+          "Hardwood",
+          "Fine Craftsmanship"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-004",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba4/product.mp4",
+            "description": "🎮 Premium arcade cabinet built from solid oak and walnut! Hand-routed control panel, dovetail joints, hand-rubbed finish. 5 months of meticulous woodworking. Not just a gaming machine, it's a piece of furniture art that will last generations.",
+            "hashtags": [
+              "Woodworking",
+              "PremiumCabinets",
+              "Handcrafted",
+              "Hardwood",
+              "FineCraftsmanship"
+            ]
+          },
+          "stats": {
+            "likes": 612
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba5",
+        "username": "MiniArcadeMaker",
+        "displayName": "Casey - Mini Arcade Maker",
+        "bio": "Specializing in compact and portable arcade builds | Making arcade gaming accessible for small spaces | Mini but mighty!",
+        "avatar": "assets/mapDecorationCycle/Melba5/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba5/proflieBG.webp",
+        "tags": [
+          "Mini Arcade",
+          "Portable",
+          "Compact Design",
+          "Space Saving",
+          "Arcade Gaming"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-005",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba5/product.mp4",
+            "description": "🎮 Latest mini arcade build! Compact design fits on any desk, full-size controls, 10-inch display, built-in speakers. Built in 3 weeks. Perfect for small spaces - who says arcade gaming needs a big room?",
+            "hashtags": [
+              "MiniArcade",
+              "Portable",
+              "CompactDesign",
+              "SpaceSaving",
+              "ArcadeGaming"
+            ]
+          },
+          "stats": {
+            "likes": 489
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba6",
+        "username": "ArcadeGameCollector",
+        "displayName": "Taylor - Arcade Game Collector",
+        "bio": "Collecting rare arcade games since 2010 | Preserving gaming history | Building the ultimate arcade collection",
+        "avatar": "assets/mapDecorationCycle/Melba6/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba6/proflieBG.webp",
+        "tags": [
+          "Game Collector",
+          "Rare Games",
+          "Gaming History",
+          "Preservation",
+          "Arcade Collection"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-006",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba6/product.mp4",
+            "description": "🎮 Just added this rare 1990s arcade cabinet to my collection! One of only 200 units ever produced, pristine condition with original PCB and components. Took 2 years to find. Preserving gaming history for future generations!",
+            "hashtags": [
+              "GameCollector",
+              "RareGames",
+              "GamingHistory",
+              "Preservation",
+              "ArcadeCollection"
+            ]
+          },
+          "stats": {
+            "likes": 523
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba7",
+        "username": "ArcadeArtDesigner",
+        "displayName": "Morgan - Arcade Art Designer",
+        "bio": "Creating stunning arcade cabinet artwork | Custom graphics and side art | Bringing personality to every build",
+        "avatar": "assets/mapDecorationCycle/Melba7/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba7/proflieBG.webp",
+        "tags": [
+          "Arcade Art",
+          "Graphic Design",
+          "Custom Artwork",
+          "Side Art",
+          "Visual Design"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-007",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba7/product.mp4",
+            "description": "🎮 Latest custom arcade artwork design! Hand-drawn original artwork, high-resolution print, UV-resistant vinyl. 3 weeks from concept to final print. The artwork makes an arcade cabinet truly unique - it's the first thing people see and remember!",
+            "hashtags": [
+              "ArcadeArt",
+              "GraphicDesign",
+              "CustomArtwork",
+              "SideArt",
+              "VisualDesign"
+            ]
+          },
+          "stats": {
+            "likes": 445
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba8",
+        "username": "ArcadeSoftwareDev",
+        "displayName": "Riley - Arcade Software Dev",
+        "bio": "Developing custom arcade software and game systems | Creating unique gaming experiences | Open source enthusiast",
+        "avatar": "assets/mapDecorationCycle/Melba8/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba8/proflieBG.webp",
+        "tags": [
+          "Software Development",
+          "Game Systems",
+          "Game Development",
+          "Open Source",
+          "Programming"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-008",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba8/product.mp4",
+            "description": "🎮 Custom arcade software build! Beautiful UI, seamless game switching, save states, online leaderboards. Coded from scratch over 6 months. The software brings games to life. All open source on GitHub!",
+            "hashtags": [
+              "SoftwareDevelopment",
+              "GameSystems",
+              "GameDevelopment",
+              "OpenSource",
+              "Programming"
+            ]
+          },
+          "stats": {
+            "likes": 678
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba9",
+        "username": "ArcadeCommunityHub",
+        "displayName": "Avery - Arcade Community Hub",
+        "bio": "Organizing arcade meetups and events | Building the arcade community | Connecting enthusiasts worldwide",
+        "avatar": "assets/mapDecorationCycle/Melba9/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba9/proflieBG.webp",
+        "tags": [
+          "Community",
+          "Events",
+          "Meetups",
+          "Networking",
+          "Arcade Community"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-009",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba9/product.mp4",
+            "description": "🎮 Monthly arcade meetup was a huge success! 50+ enthusiasts shared builds, played games, exchanged ideas. 15 different arcade builds showcased, tournaments, swap meet. Building a strong community keeps this hobby alive!",
+            "hashtags": [
+              "Community",
+              "Events",
+              "Meetups",
+              "Networking",
+              "ArcadeCommunity"
+            ]
+          },
+          "stats": {
+            "likes": 389
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba10",
+        "username": "ArcadeBusinessPro",
+        "displayName": "Quinn - Arcade Business Pro",
+        "bio": "Turning arcade passion into business | Custom arcade solutions for businesses | Commercial arcade installations",
+        "avatar": "assets/mapDecorationCycle/Melba10/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba10/proflieBG.webp",
+        "tags": [
+          "Business",
+          "Commercial",
+          "Custom Solutions",
+          "Installations",
+          "Arcade Business"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-010",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba10/product.mp4",
+            "description": "🎮 Just completed a commercial arcade installation! 8 custom-built arcade machines with coin-operated system, networked high scores, commercial-grade components. 3 months from design to installation. Bringing arcade gaming to public spaces!",
+            "hashtags": [
+              "Business",
+              "Commercial",
+              "CustomSolutions",
+              "Installations",
+              "ArcadeBusiness"
+            ]
+          },
+          "stats": {
+            "likes": 512
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba11",
+        "username": "ArcadeEducator",
+        "displayName": "Sage - Arcade Educator",
+        "bio": "Teaching arcade building and electronics | Educational workshops and tutorials | Making arcade tech accessible to all",
+        "avatar": "assets/mapDecorationCycle/Melba11/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba11/proflieBG.webp",
+        "tags": [
+          "Education",
+          "Workshops",
+          "Tutorials",
+          "Teaching",
+          "Learning"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-011",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba11/product.mp4",
+            "description": "🎮 Teaching a beginner's arcade building workshop! Building a complete arcade cabinet from scratch - design, woodworking, electronics, software setup. Education is key to growing the arcade community. Knowledge should be shared!",
+            "hashtags": [
+              "Education",
+              "Workshops",
+              "Tutorials",
+              "Teaching",
+              "Learning"
+            ]
+          },
+          "stats": {
+            "likes": 634
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba12",
+        "username": "ArcadeHistorian",
+        "displayName": "River - Arcade Historian",
+        "bio": "Documenting arcade gaming history | Researching classic arcade machines | Preserving the stories behind the games",
+        "avatar": "assets/mapDecorationCycle/Melba12/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba12/proflieBG.webp",
+        "tags": [
+          "History",
+          "Research",
+          "Documentation",
+          "Classic Arcade",
+          "Gaming Heritage"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-012",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba12/product.mp4",
+            "description": "🎮 Deep dive into the history of this iconic 1970s arcade cabinet! This machine revolutionized the arcade industry. Preserving arcade history is crucial - these machines are cultural artifacts that shaped entertainment.",
+            "hashtags": [
+              "History",
+              "Research",
+              "Documentation",
+              "ClassicArcade",
+              "GamingHeritage"
+            ]
+          },
+          "stats": {
+            "likes": 456
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba13",
+        "username": "ArcadeSoundMaster",
+        "displayName": "Phoenix - Arcade Sound Master",
+        "bio": "Creating authentic arcade sound experiences | Custom audio systems | Restoring classic arcade audio",
+        "avatar": "assets/mapDecorationCycle/Melba13/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba13/proflieBG.webp",
+        "tags": [
+          "Audio",
+          "Sound Design",
+          "Music",
+          "Sound Systems",
+          "Audio Engineering"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-013",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba13/product.mp4",
+            "description": "🎮 Just finished installing a custom sound system! High-fidelity speakers, custom EQ tuning, authentic arcade sound chip emulation, subwoofer. Sound brings games to life - the beeps, boops, and music of classic arcade games are iconic!",
+            "hashtags": [
+              "Audio",
+              "SoundDesign",
+              "Music",
+              "SoundSystems",
+              "AudioEngineering"
+            ]
+          },
+          "stats": {
+            "likes": 398
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba14",
+        "username": "ArcadeStreamer",
+        "displayName": "Skyler - Arcade Streamer",
+        "bio": "Streaming arcade gameplay and builds | Sharing the arcade experience live | Building an arcade gaming community",
+        "avatar": "assets/mapDecorationCycle/Melba14/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba14/proflieBG.webp",
+        "tags": [
+          "Streaming",
+          "Live Gaming",
+          "Content Creation",
+          "Entertainment",
+          "Arcade Streaming"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-014",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba14/product.mp4",
+            "description": "🎮 Going live with my arcade build stream! Watch me assemble this custom cabinet in real-time, interactive Q&A, tips and tricks. Streaming brings the arcade community together. Join me every weekend for new builds!",
+            "hashtags": [
+              "Streaming",
+              "LiveGaming",
+              "ContentCreation",
+              "Entertainment",
+              "ArcadeStreaming"
+            ]
+          },
+          "stats": {
+            "likes": 721
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba15",
+        "username": "ArcadeTournament",
+        "displayName": "Blake - Arcade Tournament",
+        "bio": "Organizing arcade gaming tournaments | Competitive arcade gaming | High score challenges and championships",
+        "avatar": "assets/mapDecorationCycle/Melba15/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba15/proflieBG.webp",
+        "tags": [
+          "Tournaments",
+          "Competitive Gaming",
+          "High Scores",
+          "Championships",
+          "Arcade Competition"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-015",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba15/product.mp4",
+            "description": "🎮 Championship arcade tournament this Saturday! Top players competing for the ultimate high score across 10 classic games. Live score tracking, prizes, professional brackets. Competitive arcade gaming is alive and well!",
+            "hashtags": [
+              "Tournaments",
+              "CompetitiveGaming",
+              "HighScores",
+              "Championships",
+              "ArcadeCompetition"
+            ]
+          },
+          "stats": {
+            "likes": 556
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba16",
+        "username": "ArcadePartsCollector",
+        "displayName": "Cameron - Arcade Parts Collector",
+        "bio": "Collecting rare arcade parts and components | Building the ultimate parts inventory | Helping builders find what they need",
+        "avatar": "assets/mapDecorationCycle/Melba16/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba16/proflieBG.webp",
+        "tags": [
+          "Parts Collection",
+          "Components",
+          "Inventory",
+          "Rare Parts",
+          "Arcade Parts"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-016",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba16/product.mp4",
+            "description": "🎮 Just acquired a massive collection of vintage arcade parts! Rare joysticks, buttons, PCBs, original artwork, coin mechanisms. Building the ultimate parts inventory to help fellow builders. Every part has a story!",
+            "hashtags": [
+              "PartsCollection",
+              "Components",
+              "Inventory",
+              "RareParts",
+              "ArcadeParts"
+            ]
+          },
+          "stats": {
+            "likes": 467
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba17",
+        "username": "ArcadeRepairExpert",
+        "displayName": "Dakota - Arcade Repair Expert",
+        "bio": "Expert arcade machine repair and restoration | Fixing everything from CRTs to PCBs | Bringing broken machines back to life",
+        "avatar": "assets/mapDecorationCycle/Melba17/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba17/proflieBG.webp",
+        "tags": [
+          "Repair",
+          "Restoration",
+          "Troubleshooting",
+          "Maintenance",
+          "Arcade Repair"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-017",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba17/product.mp4",
+            "description": "🎮 Successfully repaired this 1990s arcade cabinet! Fixed power supply, CRT monitor, PCB connections, controls, and audio. Repair work is like solving puzzles. Nothing more satisfying than hearing that startup sound after bringing a machine back to life!",
+            "hashtags": [
+              "Repair",
+              "Restoration",
+              "Troubleshooting",
+              "Maintenance",
+              "ArcadeRepair"
+            ]
+          },
+          "stats": {
+            "likes": 534
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba18",
+        "username": "ArcadeCustomizer",
+        "displayName": "Emery - Arcade Customizer",
+        "bio": "Creating one-of-a-kind custom arcade builds | Unique themes and designs | Every cabinet tells a different story",
+        "avatar": "assets/mapDecorationCycle/Melba18/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba18/proflieBG.webp",
+        "tags": [
+          "Customization",
+          "Unique Designs",
+          "Themes",
+          "Personalization",
+          "Custom Builds"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-018",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba18/product.mp4",
+            "description": "🎮 Latest themed arcade build - space-themed cabinet with custom LED lighting and futuristic design! Unique artwork, RGB LEDs, themed control panel, custom marquee. 2 months to perfect. Customization makes each build special!",
+            "hashtags": [
+              "Customization",
+              "UniqueDesigns",
+              "Themes",
+              "Personalization",
+              "CustomBuilds"
+            ]
+          },
+          "stats": {
+            "likes": 589
+          }
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Melba19",
+        "username": "ArcadeInnovator",
+        "displayName": "Finley - Arcade Innovator",
+        "bio": "Pushing the boundaries of arcade technology | Experimental builds and concepts | Future of arcade gaming",
+        "avatar": "assets/mapDecorationCycle/Melba19/people.webp",
+        "profileBackground": "assets/mapDecorationCycle/Melba19/proflieBG.webp",
+        "tags": [
+          "Innovation",
+          "Experimental",
+          "Future Tech",
+          "Cutting Edge",
+          "Arcade Innovation"
+        ]
+      },
+      "posts": [
+        {
+          "id": "post-019",
+          "type": "video",
+          "content": {
+            "videoUrl": "assets/mapDecorationCycle/Melba19/product.mp4",
+            "description": "🎮 Experimental VR-arcade hybrid build! Combines classic arcade controls with modern VR technology. VR headset integration, haptic feedback, motion tracking. Innovation drives the arcade community forward - exploring what arcade gaming could become!",
+            "hashtags": [
+              "Innovation",
+              "Experimental",
+              "FutureTech",
+              "CuttingEdge",
+              "ArcadeInnovation"
+            ]
+          },
+          "stats": {
+            "likes": 823
+          }
+        }
+      ]
+    }
+  ]
+}
+
