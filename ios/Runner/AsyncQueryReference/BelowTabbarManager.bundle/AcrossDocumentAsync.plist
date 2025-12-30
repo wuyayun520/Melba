@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorObserverDepth</key>
+	<string>robustQueueStyle</string>
+	<key>aspectratioScopeShape</key>
+	<string>subpixelInterpreterPosition</string>
+	<key>boxshadowProxySkewx</key>
+	<string>baselineContainProcess</string>
+	<key>containerFlyweightStyle</key>
+	<string>navigationPerParam</string>
+	<key>grayscaleContextVelocity</key>
+	<string>independentProviderStatus</string>
+	<key>priorAppbarTheme</key>
+	<string>intuitiveContractionBorder</string>
+	<key>routerScopeInteraction</key>
+	<string>interpolationTempleFormat</string>
+	<key>usageSinceFramework</key>
+	<string>interactiveMetadataOrientation</string>
+	<key>webPositionedRotation</key>
+	<string>interactorAwayOperation</string>
+</dict>
+</plist>

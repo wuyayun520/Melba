@@ -10,6 +10,7 @@ import '../services/user_profile_service.dart';
 import 'privacy_policy_screen.dart';
 import 'terms_of_service_screen.dart';
 import 'about_us_screen.dart';
+import 'melba_wallet_screen.dart';
 
 class MeTabScreen extends StatefulWidget {
   const MeTabScreen({super.key});
@@ -342,6 +343,7 @@ class _MeTabScreenState extends State<MeTabScreen> {
       'assets/melba_privacy_policy.webp',
       'assets/melba_me_about_us.webp',
       'assets/melba_user_agreement.webp',
+      'assets/melba_me_wallet.webp',
     ];
 
     return Container(
@@ -384,6 +386,12 @@ class _MeTabScreenState extends State<MeTabScreen> {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) => const AboutUsScreen(),
+                  ),
+                );
+              } else if (imagePath == 'assets/melba_me_wallet.webp') {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const MelbaWalletScreen(),
                   ),
                 );
               }

@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../widgets/common_background.dart';
 import '../models/melba_data.dart';
 import '../services/like_service.dart';
 import 'user_profile_screen.dart';
+import 'melba_wallet_screen.dart';
 
 class RankingTabScreen extends StatefulWidget {
   const RankingTabScreen({super.key});
@@ -14,16 +16,21 @@ class RankingTabScreen extends StatefulWidget {
 }
 
 class _RankingTabScreenState extends State<RankingTabScreen> {
-  String _selectedType = 'weekly'; // 默认选中 weekly
+  static const int _unlockCost = 34;
+  String _selectedType = 'weekly';
   MelbaData? _melbaData;
   bool _isLoading = true;
-  Set<String> _likedUserIds = {}; // 存储已点赞的用户ID
+  Set<String> _likedUserIds = {};
+  Set<String> _unlockedUserIds = {};
+  int _melbaCoins = 0;
 
   @override
   void initState() {
     super.initState();
     _loadRankingData();
     _loadLikedUsers();
+    _loadUnlockedUsers();
+    _loadMelbaCoins();
   }
 
   Future<void> _loadLikedUsers() async {
@@ -33,6 +40,243 @@ class _RankingTabScreenState extends State<RankingTabScreen> {
         _likedUserIds = likedIds;
       });
     }
+  }
+
+  Future<void> _loadUnlockedUsers() async {
+    final prefs = await SharedPreferences.getInstance();
+    final unlockedList = prefs.getStringList('unlockedUserIds') ?? [];
+    if (mounted) {
+      setState(() {
+        _unlockedUserIds = unlockedList.toSet();
+      });
+    }
+  }
+
+  Future<void> _loadMelbaCoins() async {
+    final prefs = await SharedPreferences.getInstance();
+    final coins = prefs.getInt('melbaCoins') ?? 0;
+    if (mounted) {
+      setState(() {
+        _melbaCoins = coins;
+      });
+    }
+  }
+
+  Future<void> _saveUnlockedUser(String userId) async {
+    final prefs = await SharedPreferences.getInstance();
+    _unlockedUserIds.add(userId);
+    await prefs.setStringList('unlockedUserIds', _unlockedUserIds.toList());
+  }
+
+  Future<void> _consumeMelbaCoins(int amount) async {
+    final prefs = await SharedPreferences.getInstance();
+    _melbaCoins -= amount;
+    await prefs.setInt('melbaCoins', _melbaCoins);
+  }
+
+  Future<void> _checkAndUnlockUser(MelbaUser melbaUser) async {
+    final userId = melbaUser.user.id;
+    
+    if (_unlockedUserIds.contains(userId)) {
+      _navigateToUserProfile(melbaUser);
+      return;
+    }
+
+    await _loadMelbaCoins();
+
+    if (_melbaCoins < _unlockCost) {
+      _showInsufficientCoinsDialog();
+      return;
+    }
+
+    _showUnlockConfirmDialog(melbaUser);
+  }
+
+  void _showInsufficientCoinsDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: const Color(0xFF1E3A5F),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        title: const Text(
+          'Insufficient Coins',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 80,
+              height: 80,
+              decoration: BoxDecoration(
+                color: const Color(0xFF71AAFF).withOpacity(0.2),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                Icons.monetization_on,
+                size: 50,
+                color: Color(0xFF71AAFF),
+              ),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'You need $_unlockCost coins to unlock this profile.\nCurrent balance: $_melbaCoins coins',
+              style: TextStyle(
+                color: Colors.white.withOpacity(0.9),
+                fontSize: 16,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: Text(
+              'Cancel',
+              style: TextStyle(color: Colors.white.withOpacity(0.7)),
+            ),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const MelbaWalletScreen(),
+                ),
+              ).then((_) => _loadMelbaCoins());
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color(0xFF71AAFF),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+            ),
+            child: const Text(
+              'Recharge',
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showUnlockConfirmDialog(MelbaUser melbaUser) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: const Color(0xFF1E3A5F),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        title: const Text(
+          'Unlock Profile',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(12),
+              child: Image.asset(
+                melbaUser.user.avatar,
+                width: 80,
+                height: 80,
+                fit: BoxFit.cover,
+              ),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'Unlock ${melbaUser.user.displayName}\'s profile?',
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 12),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(
+                  Icons.monetization_on,
+                  size: 24,
+                  color: Color(0xFF71AAFF),
+                ),
+                const SizedBox(width: 8),
+                Text(
+                  '$_unlockCost Coins',
+                  style: TextStyle(
+                    color: Colors.white.withOpacity(0.9),
+                    fontSize: 16,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Current balance: $_melbaCoins coins',
+              style: TextStyle(
+                color: Colors.white.withOpacity(0.6),
+                fontSize: 14,
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: Text(
+              'Cancel',
+              style: TextStyle(color: Colors.white.withOpacity(0.7)),
+            ),
+          ),
+          ElevatedButton(
+            onPressed: () async {
+              Navigator.of(context).pop();
+              await _consumeMelbaCoins(_unlockCost);
+              await _saveUnlockedUser(melbaUser.user.id);
+              setState(() {});
+              _navigateToUserProfile(melbaUser);
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color(0xFF71AAFF),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+            ),
+            child: const Text(
+              'Unlock',
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _navigateToUserProfile(MelbaUser melbaUser) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => UserProfileScreen(melbaUser: melbaUser),
+      ),
+    );
   }
 
   Future<void> _loadRankingData() async {
@@ -206,13 +450,7 @@ class _RankingTabScreenState extends State<RankingTabScreen> {
     }
 
     return GestureDetector(
-      onTap: () {
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => UserProfileScreen(melbaUser: melbaUser),
-          ),
-        );
-      },
+      onTap: () => _checkAndUnlockUser(melbaUser),
       child: Container(
         margin: const EdgeInsets.only(bottom: 12),
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
